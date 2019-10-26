@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include<conio.h>
 int main()
 {
+    clrscr();       //to clear the output screen
     int number, i;
     printf("Enter a positive integer: ");
     scanf("%d",&number);
